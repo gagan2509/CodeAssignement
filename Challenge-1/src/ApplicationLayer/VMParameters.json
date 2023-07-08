@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUsername": {
+        "value": "test"
+      },
+      "publicIpName": {
+        "value": "test12"
+      },
+      "adminPassword": {
+        "value": "****"
+      },
+      "vmName": {
+        "value": "test"
+      },
+      "numberOfInstances": {
+        "value": 2
+      },
+      "dnsLabelPrefix": {
+        "value": "devapp.azurewebsites.com"
+      }
+    }
+  }
